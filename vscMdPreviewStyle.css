@@ -1,0 +1,17 @@
+.post-body {
+    color: #d4d4d4;
+}
+code:not([class^="language-"]) {
+    color: #cfb379;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    margin: 10px;
+}
+td, th {
+    padding: 1px 4px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #b9b9b9;
+}
