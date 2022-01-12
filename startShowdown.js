@@ -14,11 +14,11 @@ Array.prototype.forEach.call(posts, function (el, i) {
   var idx = el.innerHTML.indexOf("!markdown");
   if (idx != -1 && idx <= 1) {
     let md = el.innerHTML
-      .replace(/\n&amp;gt;/g, '\n>')  // fix quotes
-      .replace("!markdown", "")  // remove flag
-      .replace("&gt;", ">")
-      .replace("&lt;", "<");   
+    .replace(/\n&amp;gt;/g, '\n>')  // fix quotes
+    .replace("!markdown", "")  // remove flag
+    .split('&lt;').join('<')
+    .split('&gt;').join('>');   
     el.innerHTML = converter.makeHtml(md)
-      .replace(/&amp;amp;/g, "&amp;"); // remove redundant escape
+    .replace(/&amp;amp;/g, "&amp;"); // remove redundant escape
   }
 });
