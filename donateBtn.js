@@ -26,6 +26,7 @@
         text.style.fontSize = '2vw';
         button.appendChild(text);
         // button
+        button.onclick = function(){window.open(index['link'])}
         button.style.backgroundColor = index['color'];
         button.style.borderRadius = '100vw';
         button.style.padding = '0.2vw 1vw';
