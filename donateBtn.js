@@ -25,6 +25,10 @@
         text.innerText = index['text'];
         button.appendChild(text);
         // button
+        button.style.backgroundColor = index['color'];
         div.appendChild(button);
     });
+    // div
+    div.style.display = 'flex';
+    document.body.appendChild(div);
 })(); 
