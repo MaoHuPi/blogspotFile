@@ -3,13 +3,13 @@
         {
             'text':'Ko-fi', 
             'color':'#86c3ee', 
-            'image':'https://storage.ko-fi.com/cdn/cup-border.png', 
+            'image':'https://blogger.googleusercontent.com/img/a/AVvXsEisGBvxWZnflFbRK59FBh7PstOoYLCs7lomhj1vPkeiVdDhOtDKEUAwKW6ukUqFq1qoWwuC3MvN2MkabiCWzjwx-IP6AAFpXjJ0XgAxRH3vd3cr-unFc-XMPo-dts9HwCj957zWyTYnS6m_gt8xDzDP4Mau80nhdm_2YcqZ5wqBtFV1jkFQeE1wwhMU', 
             'link':'https://ko-fi.com/maohupi'
         }, 
         {
             'text':'Liker.Land', 
             'color':'#56b893', 
-            'image':'', 
+            'image':'https://blogger.googleusercontent.com/img/a/AVvXsEhSGU11s7TlRyv2TjU9B45uBuHXf9u-yYB3s3ahCVcuOXa3uPDHr0eyHhlKfgnrlKj2uzvQOMZckVe92xEQY_50xgWr-p04rOsU-5qQtRsmlgcSdsrTa4q7sGOCwfjMxRyMmVvDehJzIxYH3sVOwywlTrp6A3g8-slgkDYnnMMqBmzRfunKG1HfxUeT', 
             'link':'https://liker.land/jhou5846/civic'
         }
     ], 
