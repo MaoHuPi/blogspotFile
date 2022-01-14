@@ -42,6 +42,7 @@
         button.style.borderColor = 'black';
         button.style.borderWidth = '0.15vw';
         button.style.boxShadow = '0px 0px 0.5vw 0px';
+        button.style.gridGap = '0.3vw';
         div.appendChild(button);
     });
     // div
