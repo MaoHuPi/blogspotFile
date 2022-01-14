@@ -29,7 +29,7 @@
         button.style.backgroundColor = index['color'];
         button.style.borderRadius = '100vw';
         button.style.padding = '0.2vw 1vw';
-        button.style.margin = '1vw';
+        button.style.margin = '0px 0px 1vw 1vw';
         div.appendChild(button);
     });
     // div
