@@ -37,6 +37,10 @@
         button.style.borderRadius = '100vw';
         button.style.padding = '0.2vw 1vw';
         button.style.margin = '0px 0px 1vw 1vw';
+        button.style.borderStyle = 'solid';
+        button.style.borderColor = 'black';
+        button.style.borderWidth = '0.15vw';
+        button.style.boxShadow = '0px 0px 0.5vw 0px';
         div.appendChild(button);
     });
     // div
