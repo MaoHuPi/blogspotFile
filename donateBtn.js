@@ -19,7 +19,12 @@
         img = document.createElement('div'), 
         text = document.createElement('span');
         // img
-        img.src = index['image'];
+        img.style.backgroundImage = `url('${index['image']}')`;
+        img.style.height = '2.4em';
+        img.style.width = '2.4em';
+        img.style.backgroundSize = 'contain';
+        img.style.backgroundPosition = 'center';
+        img.style.backgroundRepeat = 'no-repeat';
         button.appendChild(img);
         // text
         text.innerText = index['text'];
@@ -28,6 +33,7 @@
         // button
         button.onclick = function(){window.open(index['link'])}
         button.style.backgroundColor = index['color'];
+        button.style.display = 'flex';
         button.style.borderRadius = '100vw';
         button.style.padding = '0.2vw 1vw';
         button.style.margin = '0px 0px 1vw 1vw';
