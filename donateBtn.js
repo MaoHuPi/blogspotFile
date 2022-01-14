@@ -23,12 +23,20 @@
         button.appendChild(img);
         // text
         text.innerText = index['text'];
+        text.style.fontSize = '2vw';
         button.appendChild(text);
         // button
         button.style.backgroundColor = index['color'];
+        button.style.borderRadius = '100vw';
+        button.style.padding = '0.2vw 1vw';
+        button.style.margin = '1vw';
         div.appendChild(button);
     });
     // div
     div.style.display = 'flex';
+    div.style.position = 'fixed';
+    div.style.bottom = '0px';
+    div.style.left = '0px';
+    div.style.zIndex = '100';
     document.body.appendChild(div);
 })(); 
