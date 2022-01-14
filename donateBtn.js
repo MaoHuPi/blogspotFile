@@ -20,8 +20,8 @@
         text = document.createElement('span');
         // img
         img.style.backgroundImage = `url('${index['image']}')`;
-        img.style.height = '2.4em';
-        img.style.width = '2.4em';
+        img.style.height = '3vw';
+        img.style.width = '3vw';
         img.style.backgroundSize = 'contain';
         img.style.backgroundPosition = 'center';
         img.style.backgroundRepeat = 'no-repeat';
@@ -29,6 +29,7 @@
         // text
         text.innerText = index['text'];
         text.style.fontSize = '2vw';
+        text.style.lineHeight = '3vw';
         button.appendChild(text);
         // button
         button.onclick = function(){window.open(index['link'])}
