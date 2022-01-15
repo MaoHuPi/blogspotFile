@@ -15,3 +15,6 @@ td, th {
     border-width: 1px;
     border-color: #b9b9b9;
 }
+input {
+    color: black;
+}
