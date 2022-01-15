@@ -28,6 +28,7 @@
         button.appendChild(img);
         // text
         text.innerText = index['text'];
+        text.style.color = 'black';
         text.style.fontSize = '2vw';
         text.style.lineHeight = '3vw';
         button.appendChild(text);
