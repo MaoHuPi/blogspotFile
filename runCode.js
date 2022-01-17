@@ -1,11 +1,11 @@
-function removeCodeMark(script){
-  if(typeof(script) == 'object'){
-    script = document.querySelector(script).innerText;
+function removeCodeMark(text, type = 'script'){
+  if(type == 'element'){
+    text = document.querySelector(text).innerText;
   }
-  script = script.split('\n');
-  script.pop();
-  script.shift();
-  return(script);
+  text = text.split('\n');
+  text.pop();
+  text.shift();
+  return(text);
 //   script.replace(/^./, '').replace(/.$/, '');
 }
 function runCode(script){
