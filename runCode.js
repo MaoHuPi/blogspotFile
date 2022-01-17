@@ -1,4 +1,7 @@
 function removeCodeMark(script){
+  if(typeof(script) == 'object'){
+    script = document.querySelector(script).innerText;
+  }
   script = script.split('\n');
   script.pop();
   script.shift();
