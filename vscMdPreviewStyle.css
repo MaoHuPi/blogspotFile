@@ -18,3 +18,24 @@ td, th {
 input {
     color: black;
 }
+
+:root {
+    --scrollbarTrackColor: #00000033;
+    --scrollbarThumbColor: #00000080;
+    width: 300px;
+    height: 100px;
+    scrollbar-color: var(--scrollbarThumbColor) var(--scrollbarTrackColor);
+    scrollbar-width: thin;
+}
+::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+}
+::-webkit-scrollbar-track {
+    background: var(--scrollbarTrackColor);
+    border-radius: 10px;
+}
+::-webkit-scrollbar-thumb {
+    background: var(scrollbarThumbColor);
+    border-radius: 10px;
+}
