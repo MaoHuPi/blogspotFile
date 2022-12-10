@@ -22,8 +22,6 @@ input {
 :root {
     --scrollbarTrackColor: #00000033;
     --scrollbarThumbColor: #00000080;
-    width: 300px;
-    height: 100px;
     scrollbar-color: var(--scrollbarThumbColor) var(--scrollbarTrackColor);
     scrollbar-width: thin;
 }
@@ -36,6 +34,6 @@ input {
     border-radius: 10px;
 }
 ::-webkit-scrollbar-thumb {
-    background: var(scrollbarThumbColor);
+    background: var(--scrollbarThumbColor);
     border-radius: 10px;
 }
