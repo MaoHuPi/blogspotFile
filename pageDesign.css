@@ -1,3 +1,11 @@
+a, #blog-pager a, #blog-pager a:visited, .Attribution a, .Attribution a:visited {
+    text-decoration: none;
+    color: #f39122;
+}
+a:hover, #blog-pager a:hover, .Attribution a:hover {
+    color: #f7cb4d;
+}
+
 li.overflowable-item[aria-hidden="false"] {
     transition: 0.5s;
 }
@@ -10,6 +18,7 @@ li.overflowable-item[aria-hidden="false"]:hover {
     border-radius: 10px;
     box-sizing: border-box;
 }
+
 #page_body .FeaturedPost, .Blog .blog-posts .post-outer-container{
     border-radius: 20px;
     box-shadow:
