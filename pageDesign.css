@@ -27,3 +27,17 @@ li.overflowable-item[aria-hidden="false"]:hover {
         0px 0px 10px 0px white
     ;
 }
+
+@keyframes sparkle {
+    0% {
+        filter: brightness(0);
+    }
+    100% {
+        filter: brightness(1);
+    }
+}
+.sparkle, img.profile-img {
+    animation-name: sparkle;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
