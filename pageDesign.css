@@ -10,7 +10,7 @@ li.overflowable-item[aria-hidden="false"] {
     transition: 0.5s;
 }
 li.overflowable-item[aria-hidden="false"]:hover {
-    color: #fff;
+    color: white !important;
     background-color: #fff5;
     /* border-style: solid; */
     /* border-width: 2px; */
