@@ -40,4 +40,5 @@ li.overflowable-item[aria-hidden="false"]:hover {
     animation-name: sparkle;
     animation-duration: 1s;
     animation-iteration-count: infinite;
+    animation-direction: alternate;
 }
